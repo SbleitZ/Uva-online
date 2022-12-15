@@ -4,8 +4,7 @@
 using namespace std;
 int main(){
     int n = 200;
-    int max_iterable = 200;
-    // int respuesta[2];
+    int max_iterable = 200;//aqui se especifica cual sera el numero maximo que se usara como respuesta
     for(int i = 1;i<=n;i++){
         for(int a = 2;a<max_iterable;a++){
         for(int b = 2;b<max_iterable;b++){
